@@ -1,0 +1,59 @@
+/* Стили для ссылок */
+a {
+    text-decoration: none;
+}
+
+/* Контейнер с двумя колонками */
+.container {
+    display: flex;
+}
+
+/* Стили для левой колонки */
+.left {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+/* Стили для правой колонки */
+.right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-left: 2px solid #ccc;
+}
+
+/* Стили для ссылок в меню */
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Основной заголовок */
+.main-title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/* Стили для параграфа текста */
+.text-paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+/* Подзаголовок */
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
